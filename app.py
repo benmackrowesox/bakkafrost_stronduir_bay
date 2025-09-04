@@ -255,4 +255,4 @@ def update_graph_and_pie(selected_genera, selected_species, selected_ebms, selec
     return fig, pie_div
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)
